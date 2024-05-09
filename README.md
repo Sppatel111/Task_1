@@ -14,11 +14,11 @@ This model predicts the age of individuals from images. It utilizes machine lear
 
 ## Dependencies:
 - Python
-- Machine learning libraries (TensorFlow)
+- Machine learning libraries (TensorFlow, Keras, scikit-learn)
 - Image processing libraries (OpenCV - cv2)
 - Data manipulation libraries (NumPy, Pandas)
 - Data visualization libraries (Matplotlib)
-- GUI development (Tkinter)
+- GUI development (Tkinter, filedialog, ttk)
 - Operating system interaction (os)
 
 ## Contributors:
