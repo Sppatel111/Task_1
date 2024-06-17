@@ -1,26 +1,60 @@
 # Age Prediction Model
 
-## Overview:
-This model predicts the age of individuals from images. It utilizes machine learning techniques to analyze facial features and estimate the age of the person in the image.
+[![License: Creative Commons](https://img.shields.io/badge/License-CC_BY--NC_4.0-blue.svg)](https://creativecommons.org/licenses/by-nc/4.0/deed.en)
 
-## Task Description:
-- Predicts the age of individuals from images.
-- Utilizes a simple Convolutional Neural Network (CNN) architecture for image processing and age estimation.
+## Description
 
-## Usage:
-1. **Input**: Images containing faces of individuals.
-2. **Output**: Predicted age of the individuals in the images.
-3. **Implementation**: Utilizes machine learning libraries like TensorFlow for model training and inference. Image processing libraries like OpenCV (cv2) are used for face detection and manipulation. A simple CNN model is employed for age estimation. GUI development can be facilitated using Tkinter for user interface.
+The Age Prediction Model is a machine learning-based application that predicts the age of individuals from images using a Convolutional Neural Network (CNN). This system can be used by various industries for age verification, personalization of services, and demographic studies.
 
-## Dependencies:
-- Python
-- Machine learning libraries (TensorFlow, Keras, scikit-learn)
-- Image processing libraries (OpenCV - cv2)
-- Data manipulation libraries (NumPy, Pandas)
-- Data visualization libraries (Matplotlib)
-- GUI development (Tkinter, filedialog, ttk)
-- Operating system interaction (os)
+The workflow involves:
+1. Loading a pre-trained CNN model.
+2. Accepting user inputs for images containing faces.
+3. Preprocessing the input data using OpenCV for face detection.
+4. Using the CNN model to predict the age of individuals.
+5. Displaying the predicted age to the user.
 
-## Contributors:
-- Sneha Patel
-- +91 9327172210
+## Tech Stack
+
+- **Backend:** Python Flask
+- **Machine Learning:** TensorFlow, Keras, scikit-learn
+- **Image Processing:** OpenCV
+- **Frontend:** HTML, CSS, Tkinter
+- **Data Manipulation:** NumPy, Pandas
+- **Data Visualization:** Matplotlib
+- **Operating System Interaction:** os
+- **IDE:** Spyder
+- **Python:** 3.11.5
+- **TensorFlow:** 2.16.1
+- **Keras:** 3.3.3
+- **OpenCV:** 4.9.0
+
+## Demo
+
+[Download Demo Video](static/record.mp4)
+
+
+## Usage
+
+Clone this repository:
+
+    ```bash
+    git clone https://github.com/Sppatel111/age-detector.git
+    ```
+
+## Contribution
+
+Contributions to this project are welcome! Here's how you can help:
+
+- Test the application and provide feedback on its functionality and user experience.
+- Enhance the ML model by tuning hyperparameters or exploring different algorithms.
+- Improve the frontend design and user interface.
+- Report any bugs or issues you encounter while using the application.
+- Submit pull requests with new features, optimizations, or bug fixes.
+
+Please note that commercial use of the code or any derived work is not allowed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/deed.en). Contributions should align with the non-commercial nature of the project.
+
+Feel free to fork the repository, make your changes, and submit a pull request. Your contributions are appreciated!
+
+## License
+
+This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/deed.en). See the [LICENSE](LICENSE) file for details.
