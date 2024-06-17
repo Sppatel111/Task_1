@@ -30,7 +30,7 @@ The workflow involves:
 
 ## Demo
 
-[Download Demo Video](static/record_1.mp4)
+[Download Demo Video](video/record_1.mp4)
 
 
 ## Usage
